@@ -1,8 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using StorageRoom.Api.Request;
 using StorageRoom.Api.Responses;
-using StorageRoom.Models.Dtos;
-using StorageRoom.Models.Entity;
+
 using Swashbuckle.AspNetCore.Annotations;
 
 namespace StorageRoom.Api.Controllers;

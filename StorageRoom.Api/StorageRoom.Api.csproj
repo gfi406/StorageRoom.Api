@@ -13,10 +13,4 @@
     <PackageReference Include="Swashbuckle.AspNetCore.Annotations" Version="7.2.0" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Reference Include="StorageRoom">
-      <HintPath>..\..\StorageRoom\StorageRoom\bin\Debug\net8.0\StorageRoom.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-
 </Project>

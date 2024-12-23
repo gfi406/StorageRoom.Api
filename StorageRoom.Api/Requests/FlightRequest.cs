@@ -4,8 +4,8 @@ namespace StorageRoom.Api.Request
 {
     public record FlightRequest
     {
-        [Required(ErrorMessage = "Идентификатор рейса обязателен.")]
-        public Guid Id { get; set; }
+        //[Required(ErrorMessage = "Идентификатор рейса обязателен.")]
+        //public Guid Id { get; set; }
 
         [Required(ErrorMessage = "Номер рейса обязателен.")]
         [StringLength(10, ErrorMessage = "Длина номера рейса не может превышать 10 символов.")]
